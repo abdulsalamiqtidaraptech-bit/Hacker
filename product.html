@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details | ABDUL KARIM OUTERWEAR</title>
+    <meta name="description" content="Explore premium outerwear details, sizing, colors, and direct purchasing options from ABDUL KARIM OUTERWEAR." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <header class="site-header inner-header">
+      <div class="container nav-container">
+        <a href="index.html" class="brand" aria-label="ABDUL KARIM OUTERWEAR home">ABDUL KARIM OUTERWEAR</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="shop.html">Men's Collection</a>
+          <a href="women.html">Women's Collection</a>
+          <a href="shop.html">Jackets</a>
+          <a href="shop.html">Hoodies</a>
+          <a href="shop.html">New Arrivals</a>
+          <a href="contact.html">Contact Us</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="icon-button" aria-label="Search">⌕</button>
+          <a href="cart.html" class="icon-button cart-button" aria-label="Shopping cart">
+            <span>🛍</span>
+            <span class="cart-count" id="cart-count">0</span>
+          </a>
+          <button class="menu-toggle" aria-label="Open navigation">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section product-detail-section">
+        <div class="container product-page-layout" id="product-detail-root">
+          <div class="product-gallery">
+            <img id="main-product-image" src="" alt="Product" />
+            <div class="gallery-thumbs">
+              <img src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80" alt="Product detail thumb 1" loading="lazy" />
+              <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80" alt="Product detail thumb 2" loading="lazy" />
+              <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80" alt="Product detail thumb 3" loading="lazy" />
+            </div>
+          </div>
+
+          <div class="product-detail-info">
+            <p class="eyebrow accent">Luxury Outerwear</p>
+            <h1 id="product-name">Product Name</h1>
+            <div class="detail-price-row">
+              <span class="current-price price-large" id="product-price">PKR 0</span>
+              <span class="old-price" id="product-old-price">PKR 0</span>
+            </div>
+
+            <p id="product-description">
+              Premium outerwear designed to balance style, comfort, and everyday confidence.
+            </p>
+
+            <div class="option-group">
+              <label>Size</label>
+              <div class="option-list" id="size-options">
+                <button class="option-pill active" type="button">S</button>
+                <button class="option-pill" type="button">M</button>
+                <button class="option-pill" type="button">L</button>
+                <button class="option-pill" type="button">XL</button>
+                <button class="option-pill" type="button">XXL</button>
+              </div>
+            </div>
+
+            <div class="option-group">
+              <label>Color</label>
+              <div class="option-list" id="color-options">
+                <button class="option-pill active" type="button">Black</button>
+                <button class="option-pill" type="button">Brown</button>
+                <button class="option-pill" type="button">Sand</button>
+              </div>
+            </div>
+
+            <div class="purchase-row">
+              <div class="quantity-box" aria-label="Quantity selector">
+                <button type="button" class="qty-btn" data-action="minus">−</button>
+                <span id="quantity-value">1</span>
+                <button type="button" class="qty-btn" data-action="plus">+</button>
+              </div>
+              <button type="button" class="btn btn-primary" id="add-to-cart-detail">Add to Cart</button>
+              <button type="button" class="btn btn-secondary" id="buy-now-button">Buy Now</button>
+            </div>
+
+            <div class="detail-actions">
+              <a href="https://wa.me/923151034354" class="btn btn-gold" id="whatsapp-order-button" target="_blank" rel="noopener">Order via WhatsApp</a>
+              <button type="button" class="text-button" id="size-guide-button">Size Guide</button>
+            </div>
+
+            <div class="product-meta">
+              <div><strong>SKU:</strong> AK-2026</div>
+              <div><strong>Category:</strong> Premium Outerwear</div>
+              <div><strong>Availability:</strong> Sample collection</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section details-panel">
+        <div class="container two-column-layout">
+          <div>
+            <h3>Product Details</h3>
+            <p id="full-description">
+              Designed with clean tailoring and premium finishes, this outerwear piece delivers a confident statement for winter layering. Thoughtful construction and premium aesthetics help it transition effortlessly from everyday wear to elevated styling.
+            </p>
+          </div>
+          <div>
+            <h3>Care Instructions</h3>
+            <ul class="info-list">
+              <li>Gentle cold wash recommended</li>
+              <li>Do not bleach or tumble dry aggressively</li>
+              <li>Store in a cool dry place</li>
+              <li>Use a soft cloth for cleaning</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section related-section">
+        <div class="container">
+          <div class="section-heading row-between">
+            <div>
+              <p class="eyebrow accent">Related Products</p>
+              <h2>You may also like.</h2>
+            </div>
+          </div>
+          <div class="product-grid four-column" id="related-products-grid">
+            <article class="product-card" data-id="urban-oversized-hoodie" data-name="Urban Oversized Hoodie" data-price="16999" data-image="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80">
+              <div class="product-media">
+                <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=900&q=80" alt="Urban Oversized Hoodie" loading="lazy" />
+                <button class="wishlist" aria-label="Add to wishlist">♡</button>
+              </div>
+              <div class="product-info">
+                <h3>Urban Oversized Hoodie</h3>
+                <div class="price-row"><span class="current-price">PKR 16,999</span></div>
+                <div class="card-actions">
+                  <button class="btn btn-primary add-to-cart" type="button">Add to Cart</button>
+                  <a href="product.html?id=urban-oversized-hoodie" class="btn btn-secondary">View</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-id="puffer-coat" data-name="Puffer Coat" data-price="22999" data-image="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80">
+              <div class="product-media">
+                <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80" alt="Puffer Coat" loading="lazy" />
+                <button class="wishlist" aria-label="Add to wishlist">♡</button>
+              </div>
+              <div class="product-info">
+                <h3>Puffer Coat</h3>
+                <div class="price-row"><span class="current-price">PKR 22,999</span></div>
+                <div class="card-actions">
+                  <button class="btn btn-primary add-to-cart" type="button">Add to Cart</button>
+                  <a href="product.html?id=puffer-coat" class="btn btn-secondary">View</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-id="long-winter-coat" data-name="Long Winter Coat" data-price="31999" data-image="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80">
+              <div class="product-media">
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80" alt="Long Winter Coat" loading="lazy" />
+                <button class="wishlist" aria-label="Add to wishlist">♡</button>
+              </div>
+              <div class="product-info">
+                <h3>Long Winter Coat</h3>
+                <div class="price-row"><span class="current-price">PKR 31,999</span></div>
+                <div class="card-actions">
+                  <button class="btn btn-primary add-to-cart" type="button">Add to Cart</button>
+                  <a href="product.html?id=long-winter-coat" class="btn btn-secondary">View</a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-id="women-leather-jacket" data-name="Women's Leather Jacket" data-price="26999" data-image="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80">
+              <div class="product-media">
+                <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80" alt="Women's Leather Jacket" loading="lazy" />
+                <button class="wishlist" aria-label="Add to wishlist">♡</button>
+              </div>
+              <div class="product-info">
+                <h3>Women's Leather Jacket</h3>
+                <div class="price-row"><span class="current-price">PKR 26,999</span></div>
+                <div class="card-actions">
+                  <button class="btn btn-primary add-to-cart" type="button">Add to Cart</button>
+                  <a href="product.html?id=women-leather-jacket" class="btn btn-secondary">View</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="index.html" class="brand footer-brand">ABDUL KARIM OUTERWEAR</a>
+          <p>Premium outerwear and modern winter essentials designed for confidence, comfort, and everyday luxury.</p>
+          <div class="social-links">
+            <a href="https://www.instagram.com" aria-label="Instagram" target="_blank" rel="noreferrer">◎</a>
+            <a href="https://www.facebook.com" aria-label="Facebook" target="_blank" rel="noreferrer">◌</a>
+            <a href="https://wa.me/923151034354" aria-label="WhatsApp" target="_blank" rel="noreferrer">✆</a>
+          </div>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="shop.html">Men's Collection</a></li>
+            <li><a href="women.html">Women's Collection</a></li>
+            <li><a href="shop.html">New Arrivals</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Customer Support</h3>
+          <ul>
+            <li><a href="contact.html">FAQs</a></li>
+            <li><a href="contact.html">Shipping Policy</a></li>
+            <li><a href="contact.html">Return & Exchange</a></li>
+            <li><a href="contact.html">Privacy Policy</a></li>
+            <li><a href="contact.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul>
+            <li><a href="tel:+923151034354">Phone / WhatsApp: 03151034354</a></li>
+            <li><a href="https://wa.me/923151034354" target="_blank" rel="noopener">WhatsApp ordering</a></li>
+            <li><a href="mailto:hello@abdulkarimouterwear.com">Customer support</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container row-between">
+          <p>© 2026 ABDUL KARIM OUTERWEAR. All rights reserved.</p>
+          <div class="payment-icons" aria-label="Accepted payment methods">
+            <span>Cash</span>
+            <span>Bank</span>
+            <span>Card</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="https://wa.me/923151034354" class="floating-whatsapp" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+    <script src="script.js"></script>
+  </body>
+</html>
